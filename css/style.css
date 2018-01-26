@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    background-image: url('../images/background/0 Start Page.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 300px;
+}
+
+#startDiv {
+    margin: auto;
+    text-align: center;
+}
+
+#restartDiv {
+    margin: auto;
+    text-align: center;
+    visibility: hidden;
+}
+
+#startButton {
+    background-image: url('../images/start-restart/start 2.png');
+    width: 190px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#restartButton {
+    background-image: url('../images/start-restart/restart.png');
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin-left: 650px;
+    margin-top: 125px;
+}
